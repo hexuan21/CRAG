@@ -1,0 +1,6 @@
+eval_data/*
+retrieval_lm/*
+retriever/*
+data/popqa/train*
+data/*
+scripts/retriever/*

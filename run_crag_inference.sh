@@ -5,7 +5,7 @@ cd scripts
 dataset=popqa
 python CRAG_Inference.py \
 --generator_path selfrag/selfrag_llama2_7b \
---evaluator_path retriever/model.safetensors \
+--evaluator_path ./retriever \
 --input_file ../data/$dataset/test_$dataset.txt \
 --output_file ../data/$dataset/output/res_$dataset.txt \
 --internal_knowledge_path ../data/$dataset/ref/correct \
